@@ -32,10 +32,6 @@ module.exports = {
       match: finicky.matchHostnames([
         "firefox.com",
         /.*\firefox.com$/,
-        "amazon.com",
-        /.*\amazon.com$/,
-        "amazon.co.jp",
-        /.*\amazon.co.jp$/,
         "google.com",
         /.*\google.com$/,
         "youtube.com",
