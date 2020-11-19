@@ -38,6 +38,8 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+# defaults write does not disable Auto Correct for iMessage
+# https://apple.stackexchange.com/questions/391297/disable-mac-autocorrect-for-imessage-via-terminal-defaults-write
 
 ###############################################################################
 # Finder                                                                      #
